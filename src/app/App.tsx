@@ -29,34 +29,34 @@ export default function App() {
               {portfolio.tagline}
             </p>
             <div className="flex gap-4 pt-4">
-              <a
-                href={`mailto:${portfolio.contact.email}`}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
-              >
-                <Mail className="w-4 h-4" />
-                Get in touch
-              </a>
-              <a
-               href={portfolio.contact.linkedin}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-lg hover:bg-accent transition-colors"
->
-  <Linkedin className="w-4 h-4" />
-  LinkedIn
-</a>
-
-{portfolio.contact.cv && (
   
-    href={portfolio.contact.cv}
+    href={`mailto:${portfolio.contact.email}`}
+    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
+  >
+    <Mail className="w-4 h-4" />
+    Get in touch
+  </a>
+  
+    href={portfolio.contact.linkedin}
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-lg hover:bg-accent transition-colors"
   >
-    <ExternalLink className="w-4 h-4" />
-    CV
+    <Linkedin className="w-4 h-4" />
+    LinkedIn
   </a>
-)}
+  {portfolio.contact.cv && (
+    
+      href={portfolio.contact.cv}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-lg hover:bg-accent transition-colors"
+    >
+      <ExternalLink className="w-4 h-4" />
+      CV
+    </a>
+  )}
+</div>
             </div>
           </div>
         </div>
