@@ -20,7 +20,7 @@ export const portfolioData = {
     {
       id: 1,
       title: "Xpirit - one app, every workouts",
-      description: "Product strategy and design leadership for a comprehensive fitness tracking platform that centralizes all athlete data in one place. Athletes can connect their wearable devices and gadgets to monitor training sessions, track pace (km/h), analyze recovery metrics, monitor sleep patterns, and view progress across multiple workout types. The unified dashboard transforms fragmented fitness data into actionable insights.,
+      description: "Product strategy and design leadership for a comprehensive fitness tracking platform that centralizes all athlete data in one place. Athletes can connect their wearable devices and gadgets to monitor training sessions, track pace (km/h), analyze recovery metrics, monitor sleep patterns, and view progress across multiple workout types. The unified dashboard transforms fragmented fitness data into actionable insights.",
       image: "./imports/xpirit_app.png",    // ruta relativa desde src/
       tags: ["Mobile App", "Health & Fitness", "IoT Integration"],
       metrics: ["Multi-device connectivity", "Real-time performance tracking", "Unified user experience"],
