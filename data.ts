@@ -94,3 +94,4 @@ export const portfolioData = {
     github: null,  // Pon tu URL de GitHub aquí si quieres mostrarlo, o deja null
   },
 };
+
