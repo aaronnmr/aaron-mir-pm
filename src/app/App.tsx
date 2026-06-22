@@ -44,7 +44,7 @@ export default function App() {
               >
                 <Linkedin className="w-4 h-4" />
                 LinkedIn
-             
+  </a>
               {portfolio.contact.cv && (
   
     href={portfolio.contact.cv}
@@ -55,6 +55,7 @@ export default function App() {
     <ExternalLink className="w-4 h-4" />
     CV
   </a>
+)}
 )}
             </div>
           </div>
