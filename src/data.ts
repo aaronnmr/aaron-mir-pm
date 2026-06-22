@@ -92,7 +92,7 @@ export const portfolioData = {
     email: "aaronmr27@outlook.com",
     linkedin: "https://www.linkedin.com/in/aaron-mirmartin/",
     github: null, 
-    cv: "https://www.dropbox.com/scl/fi/4r8i3wkhshoh7yjak76zp/Aaron-my-cv-2026.pdf?rlkey=xm2kr6g8t9avc94cvj7wdwbtj&st=k7oasba4&dl=0"// Pon tu URL de GitHub aquí si quieres mostrarlo, o deja null
+    cv: "https://www.dropbox.com/scl/fi/4r8i3wkhshoh7yjak76zp/Aaron-my-cv-2026.pdf?rlkey=xm2kr6g8t9avc94cvj7wdwbtj&st=k7oasba4&dl=0",// Pon tu URL de GitHub aquí si quieres mostrarlo, o deja null
   },
 };
 
