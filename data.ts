@@ -33,7 +33,7 @@ export const portfolioData = {
       image: "./imports/werealty.png",
       tags: ["Real Estate", "CRM", "Mobile App", "Spanish"],
       metrics: ["Client & property management", "Calendar integration", "Spanish interface"],
-      link: "#",
+      link: "https://app.notion.com/p/Product-Portfolio-We-Realty-Real-Estate-CRM-3730763cf30880ff847bf6f3b6e1cef8?source=copy_link",
     },
     {
       id: 3,
