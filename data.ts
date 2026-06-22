@@ -24,7 +24,7 @@ export const portfolioData = {
       image: "./imports/xpirit_app.png",    // ruta relativa desde src/
       tags: ["Mobile App", "Health & Fitness", "IoT Integration"],
       metrics: ["Multi-device connectivity", "Real-time performance tracking", "Unified user experience"],
-      link: "#",  // Cambia por la URL del case study cuando lo tengas
+      link: "https://app.notion.com/p/Product-Portfolio-Xpirit-Unified-Athlete-Dashboard-3730763cf3088044966dfb738ed3a4f0?source=copy_link",  // Cambia por la URL del case study cuando lo tengas
     },
     {
       id: 2,
