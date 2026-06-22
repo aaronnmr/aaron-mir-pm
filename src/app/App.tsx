@@ -37,15 +37,16 @@ export default function App() {
                 Get in touch
               </a>
               <a
-                href={portfolio.contact.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-lg hover:bg-accent transition-colors"
-              >
-                <Linkedin className="w-4 h-4" />
-                LinkedIn
-  </a>
-              {portfolio.contact.cv && (
+               href={portfolio.contact.linkedin}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-lg hover:bg-accent transition-colors"
+>
+  <Linkedin className="w-4 h-4" />
+  LinkedIn
+</a>
+
+{portfolio.contact.cv && (
   
     href={portfolio.contact.cv}
     target="_blank"
@@ -55,7 +56,6 @@ export default function App() {
     <ExternalLink className="w-4 h-4" />
     CV
   </a>
-)}
 )}
             </div>
           </div>
