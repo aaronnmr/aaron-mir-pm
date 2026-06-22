@@ -19,8 +19,8 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "Xpirit - Athletes Performance Dashboard",
-      description: "Product strategy and design leadership for a comprehensive fitness tracking platform that centralizes all athlete data in one place. Athletes can connect their wearable devices and gadgets to monitor training sessions, track pace (km/h), analyze recovery metrics, monitor sleep patterns, and view progress across multiple workout types. The unified dashboard transforms fragmented fitness data into actionable insights.<br> More info: <a href='https://app.notion.com/p/Product-Portfolio-Xpirit-Unified-Athlete-Dashboard-3730763cf3088044966dfb738ed3a4f0?source=copy_link' target='_blank'>https://app.notion.com/p/Product-Portfolio-Xpirit-Unified-Athlete-Dashboard-3730763cf3088044966dfb738ed3a4f0?source=copy_link</a>",
+      title: "Xpirit - one app, every workouts",
+      description: "Product strategy and design leadership for a comprehensive fitness tracking platform that centralizes all athlete data in one place. Athletes can connect their wearable devices and gadgets to monitor training sessions, track pace (km/h), analyze recovery metrics, monitor sleep patterns, and view progress across multiple workout types. The unified dashboard transforms fragmented fitness data into actionable insights.,
       image: "./imports/xpirit_app.png",    // ruta relativa desde src/
       tags: ["Mobile App", "Health & Fitness", "IoT Integration"],
       metrics: ["Multi-device connectivity", "Real-time performance tracking", "Unified user experience"],
@@ -91,7 +91,8 @@ export const portfolioData = {
   contact: {
     email: "aaronmr27@outlook.com",
     linkedin: "https://www.linkedin.com/in/aaron-mirmartin/",
-    github: null,  // Pon tu URL de GitHub aquí si quieres mostrarlo, o deja null
+    github: null, 
+    cv: "https://www.dropbox.com/scl/fi/4r8i3wkhshoh7yjak76zp/Aaron-my-cv-2026.pdf?rlkey=xm2kr6g8t9avc94cvj7wdwbtj&st=k7oasba4&dl=0"// Pon tu URL de GitHub aquí si quieres mostrarlo, o deja null
   },
 };
 
