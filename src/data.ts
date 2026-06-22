@@ -19,12 +19,12 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "Xpirit - one app, every workouts",
-      description: "Product strategy and design leadership for a comprehensive fitness tracking platform that centralizes all athlete data in one place. Athletes can connect their wearable devices and gadgets to monitor training sessions, track pace (km/h), analyze recovery metrics, monitor sleep patterns, and view progress across multiple workout types. The unified dashboard transforms fragmented fitness data into actionable insights.",
+      title: "Xpirit - Athletes Performance Dashboard",
+      description: "Product strategy and design leadership for a comprehensive fitness tracking platform that centralizes all athlete data in one place. Athletes can connect their wearable devices and gadgets to monitor training sessions, track pace (km/h), analyze recovery metrics, monitor sleep patterns, and view progress across multiple workout types. The unified dashboard transforms fragmented fitness data into actionable insights.<br> More info: <a href='https://app.notion.com/p/Product-Portfolio-Xpirit-Unified-Athlete-Dashboard-3730763cf3088044966dfb738ed3a4f0?source=copy_link' target='_blank'>https://app.notion.com/p/Product-Portfolio-Xpirit-Unified-Athlete-Dashboard-3730763cf3088044966dfb738ed3a4f0?source=copy_link</a>",
       image: "./imports/xpirit_app.png",    // ruta relativa desde src/
       tags: ["Mobile App", "Health & Fitness", "IoT Integration"],
       metrics: ["Multi-device connectivity", "Real-time performance tracking", "Unified user experience"],
-      link: "https://xpiritapp.vercel.app",  // Cambia por la URL del case study cuando lo tengas
+      link: "https://alluring-queen-5aa.notion.site/Product-Portfolio-Xpirit-Unified-Athlete-Dashboard-3730763cf3088044966dfb738ed3a4f0",  // Cambia por la URL del case study cuando lo tengas
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ export const portfolioData = {
       image: "./imports/werealty.png",
       tags: ["Real Estate", "CRM", "Mobile App", "Spanish"],
       metrics: ["Client & property management", "Calendar integration", "Spanish interface"],
-      link: "#",
+      link: "https://app.notion.com/p/Product-Portfolio-We-Realty-Real-Estate-CRM-3730763cf30880ff847bf6f3b6e1cef8?source=copy_link",
     },
     {
       id: 3,
@@ -91,7 +91,7 @@ export const portfolioData = {
   contact: {
     email: "aaronmr27@outlook.com",
     linkedin: "https://www.linkedin.com/in/aaron-mirmartin/",
-    github: null,
-    cv: "https://www.dropbox.com/scl/fi/4r8i3wkhshoh7yjak76zp/Aaron-my-cv-2026.pdf?rlkey=xm2kr6g8t9avc94cvj7wdwbtj&st=k7oasba4&dl=0"  // Pon tu URL de GitHub aquí si quieres mostrarlo, o deja null
+    github: null,  // Pon tu URL de GitHub aquí si quieres mostrarlo, o deja null
   },
 };
+
