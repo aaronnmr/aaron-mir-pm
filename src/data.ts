@@ -39,7 +39,7 @@ export const portfolioData = {
       id: 3,
       title: "Dynadion - Athletic Performance E-commerce",
       description: "End-to-end Shopify design and implementation for a German sports performance brand. Created a clean, minimalist e-commerce experience positioning 'athleceuticals' at the intersection of athletics and pharmaceuticals. Designed modular product categorization, integrated trust signals (dermatologically tested, climate-neutral shipping), and built educational content around proprietary technologies.",
-      image: null, // 🎯 Añade una captura de pantalla en src/imports/ y pon la ruta aquí
+      image: "./imports/dynadion.png", // 🎯 Añade una captura de pantalla en src/imports/ y pon la ruta aquí
       tags: ["Shopify", "E-commerce", "German Market", "Sports"],
       metrics: ["Complete brand identity", "Multi-category product system", "Conversion optimization"],
       link: "https://dynadion.de/",
